@@ -99,7 +99,6 @@ public class NerdFragment extends Fragment {
 
             itemView.setOnClickListener(this);
 
-
         }
 
         protected void bindActivity(ResolveInfo resolveInfo){
@@ -143,7 +142,6 @@ public class NerdFragment extends Fragment {
         @Override
         public NerdViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
             View itemView = LayoutInflater.from(getActivity()).inflate(R.layout.fragment_nerd_icon, parent, false);
-
             return new NerdViewHolder(itemView);
         }
 
